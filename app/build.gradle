@@ -1,0 +1,32 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+
+    namespace 'com.wallet.tracker'
+
+    compileSdk 35
+
+    defaultConfig {
+
+        applicationId "com.wallet.tracker"
+
+        minSdk 29
+        targetSdk 35
+
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+
+        release {
+
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+}
